@@ -1,7 +1,7 @@
 package com.jojoldu.book.springboot.web.dto;
 
 
-import com.jojoldu.book.springboot.domain.service.posts.PostsService;
+import com.jojoldu.book.springboot.domain.posts.PostsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
