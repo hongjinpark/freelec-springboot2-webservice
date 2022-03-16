@@ -36,6 +36,7 @@ public class HelloControllerTest {
                 .andExpect(content().string(hello));
     }
 
+    @WithMockUser(roles="USER")
     @Test
     public void helloDto() throws Exception {
         String name = "hello";
