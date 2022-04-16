@@ -31,7 +31,7 @@ dependencies {
     testAnnotationProcessor('org.projectlombok:lombok')
 
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
-    implementation("org.mysql.jdbc:mysql-java-client")
+    implementation 'mysql:mysql-connector-java'
     implementation('com.h2database:h2')
 
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // 권한 관련
@@ -40,5 +40,4 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testImplementation("org.springframework.security:spring-security-test") // 권한 관련
 
-    implementation("org.mysql.jdbc:mysql-java-client")
 }
